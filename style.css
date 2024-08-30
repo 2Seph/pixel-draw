@@ -7,11 +7,11 @@ body {
     font-weight: bold;
   }
   
-  .a {
+  .header {
+    text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top:50px;
+    margin: 50px 0;
   }
   
   #draw {
@@ -20,7 +20,7 @@ body {
   #title {
     font-size: 36px;
   }
-  #c{
+  #c {
     font-size: 12px;
     font-weight: 600;
   }
