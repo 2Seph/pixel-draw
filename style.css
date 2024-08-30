@@ -1,0 +1,87 @@
+body {
+    background: #000000;
+    color:white;
+    margin: 0px;
+    font-size: 11px;
+    font-family: 'Poppins';
+    font-weight: bold;
+  }
+  
+  .a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top:50px;
+  }
+  
+  #draw {
+    color: #76FFCE;
+  }
+  #title {
+    font-size: 36px;
+  }
+  #c{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  
+  .sketchArea {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 50px 0px;
+  }
+  
+  button {
+    padding: 12px 40px;
+    border-radius: 30px;
+    color: white;
+  }
+  
+  #changeColor {  /*color button */
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .tophalf {
+    border:none;
+    background: #418F86;
+  }
+  .bottomhalf {
+    border: 1px solid #418F86;
+    background: none;
+  }
+  .colorPicker:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+  
+  
+  .container {
+    width: 400px;
+    border: 5px solid #418F86;
+    cursor: crosshair;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  .cell {
+    border:1px solid #0C221F;
+  }
+  
+  
+  
